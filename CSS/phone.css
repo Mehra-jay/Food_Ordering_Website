@@ -1,0 +1,60 @@
+
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+}
+
+#home{
+    height: 386px;
+    padding: 3px 35px;
+}
+
+#home::before{
+    height: 480px;
+}
+
+#home p{
+    font-size: 0.7rem;
+}
+
+#Services{
+    flex-direction: column;
+}
+
+#Services .box img{
+    height: 117px;
+    margin: auto;
+    display: block;
+}
+
+
+#partners{
+    flex-wrap: wrap;
+}
+#partners img{
+    height: 55px;
+    width: 55px;
+    padding: 2px 4px;
+}
+
+#Partner-section::before{
+    content: "";
+    position: absolute;
+    background: url('../Images/bg3.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.h-primary{
+    font-size: 24px;
+}
+.button{
+    font-size: 1rem;
+    padding: 4px 8px;
+}
